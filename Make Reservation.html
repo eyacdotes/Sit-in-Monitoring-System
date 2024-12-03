@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Make Reservation</title>
+</head>
+<body>
+    <h2>Make Reservation</h2>
+    <form action="process_reservation.php" method="POST">
+        <label for="purpose">Purpose:</label>
+        <input type="text" id="purpose" name="purpose" required><br><br>
+
+        <label for="lab">Lab:</label>
+        <input type="text" id="lab" name="lab" required><br><br>
+
+        <label for="reservation_date">Reservation Date:</label>
+        <input type="date" id="reservation_date" name="reservation_date" required><br><br>
+
+        <label for="reservation_time">Reservation Time:</label>
+        <input type="time" id="reservation_time" name="reservation_time" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
